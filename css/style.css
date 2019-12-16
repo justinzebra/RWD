@@ -1,0 +1,204 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+p {
+	font-size: 16px;
+}
+/* CSS  */
+.navbar-brand img {
+	height: 50px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+		color: aquamarine;
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
+/* 輪播  */
+.container-fluid{
+	margin-top: 76px;
+	max-height: 100%;
+}
+.banner {
+	margin-top: 50px;
+
+}
+.banner .container-fluid {
+	padding:0!important;
+	
+}
+.img-fluid{
+	width: 100%;
+	height: 100%;
+}
+
+.jaychouimg img{
+	margin-top: 20px;
+	
+}
+.jaychouimg p{
+font-style: inherit ;
+margin-top: 15px;
+margin-bottom: -0px;
+}
+
+
+/*5  */
+.AA{
+	margin-top: -50px;
+}
+.QQ{
+	border:5px;
+	border-color: blue;
+}
+.about {
+	padding:100px 0;
+	background:linear-gradient(#F7FBFD,#F7FBFD); 
+	border: #8ABCB8;
+
+}
+
+.about img {
+	box-shadow:2px 2px 4px gray;
+	margin-bottom: 10px;
+}
+.title {
+	margin-top: 15px;
+	font-size:20px;
+	font-weight: bold;
+}
+.titleimg{
+	margin-top: 15px;	
+}
+.titleimg img{
+	width: 100%;
+	height: 100%;
+}
+
+.title_line {
+	border-color:#ffffff;
+}
+
+.story {
+	padding: 50px 0;
+	font-size: 18px;
+}
+
+.story span {
+	font-style: italic;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.title_line {
+	margin-bottom: 50px;
+}
+
+
+
+/*6  */
+.product {
+	background-color: #D9EEF4;
+	padding-bottom:70px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.product .card {
+	background-color: #ffffff;
+	padding: 20px 10px;
+	margin-bottom: 10px;
+}
+.product img {
+	width:100%;
+	margin-bottom:20px;
+}
+
+.product img:hover {
+	opacity: 0.8;
+}
+.product_name {
+	padding: 10px;
+}
+
+
+/*7  */
+.contact {
+	height:750px;
+	padding-top: 100px;
+	background-image: url(../img/contact_bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+}
+
+.contact .title {
+	color:#ffffff;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+input[type=submit] {
+  background-color: #ABD0CE;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: #8ABCB8;
+}
+
+
+/*8  */
+footer {
+	background-color: #D9EEF4;
+	padding:20px 0; 
+}
+
+footer p {
+	line-height: 39px;
+}
